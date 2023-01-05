@@ -11,7 +11,7 @@ class HelloworldPublisher(Node):
         qos_profile = QoSProfile(depth=10)
         self.helloworld_publisher = self.create_publisher(String, 'helloworld', qos_profile)
         self.timer = self.create_timer(1, self.publish_helloworld_msg)
-        self.count = 0
+        self.count = 00000000000
 
     def publish_helloworld_msg(self):
         msg = String()
