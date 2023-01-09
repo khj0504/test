@@ -22,7 +22,7 @@ class HelloworldPublisher(Node):
 
 
 def main(args=None):
-    rclpy.init(args=args)
+    rclpy.init(args=args)ㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴ
     node = HelloworldPublisher()
     try:
         rclpy.spin(node)
