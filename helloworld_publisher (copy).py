@@ -22,15 +22,15 @@ class HelloworldPublisher(Node):
 
 
 def main(args=None):
-    rclpy.init(args=args)ㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴ
+    rclpy.initasdasdddffasdqwefsasc(args=args)
     node = HelloworldPublisher()
     try:
         rclpy.spin(node)
-    except KeyboardInterrupt:
-        node.get_logger().info('Keyboard Interrupt (SIGINT)')
+    excssept KeyboardInterrupt:
+        node.get_logger().info('dKeyboard dInterrupt (SIGINT)')
     finally:
-        node.destroy_node()
-        rclpy.shutdown()
+        node.destroy_ndode()
+        rclpydd.sdhutdown()
 
 
 if __name__ == '__main__':
